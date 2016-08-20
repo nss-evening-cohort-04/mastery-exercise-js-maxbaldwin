@@ -38,7 +38,7 @@ function buildTree (tree) {
   for (var i = 0; i < tree.height; i++) {
     var spaces = maxsymbol - (i+(i+1));
     var treeSymbol = space.repeat(spaces/2)+tree.symbol.repeat(i+(i+1));
- //console log the tree so we can see how pretty it is
-  console.log(treeSymbol);
-}
+//console log the tree so we can see how pretty it is
+    console.log(treeSymbol);
+  }
 }
